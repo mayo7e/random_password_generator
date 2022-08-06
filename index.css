@@ -1,68 +1,82 @@
+
 body {
     margin: 0px;
-    /* border: 2px solid red; */
     color: white;
     background: #1F2937;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
-.page-password{
-    /* text-align:  start; */
-    /* background: #1F2937; */
-    /* padding: 10px; */
-    width: 300px;
-    margin: 30px auto;
-    /* padding-left: 10px; */
-   
-    /* border: 2px solid red; */
+
+/* --TITTLE --Start--- */
+h2{
+    font-size: 55px;
+    margin-bottom: 8px;
     
 }
+
+span{
+    color:#4ADF86;
+    display: block;
+
+}
+/* --TITTLE --End--- */
+
+/* --INNER-TEXT --Start--- */
+h6{
+    font-weight: lighter;
+    font-size: 17px;
+    color: #D5D4D8;
+
+    margin-top: 0;
+    margin-left: 1px;
+    margin-bottom: 30px; 
+    
+}
+/* --INNER-TEXT --End--- */
+
+/* ---BUTTON --Start--- */
+button{
+    background: #10B981;
+    padding: 8px 15px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    color:  white;
+    text-shadow: 0 0 20px  #1F2937;
+   
+}
+/* ---BUTTON --End--- */
+
+/* ---PASSWORD-SECTION --Start--- */
 .password-generate{
+    border-top: 1.5px solid #2F3E53;
+    margin-top: 40px;
+    padding: 0px;
+
     display: flex;
     justify-content:  space-between; 
-    border-top: 1px solid #2F3E53;
-    margin-top: 20px;
-     padding: 0px;
-    /* justify-content: space-between; */
+ 
 }
 
 h4{
     display: flex;
     justify-content: center;
     align-items: center;
+
     color: #55F991;
-    font-size: 10px;
+    font-size: 15px;
+    text-shadow: 0 0 2px  maroon;
+
+    width: 200px;
+    height:35px;
+    margin-top: 50px;
     border-radius: 3px;
     background: #273549;
-    text-shadow: 0 0 2px  maroon;
-    width: 130px;
-    height:25px
 
 }
-span{
-    color:#4ADF86;
-    display: block;
+/* ---PASSWORD-SECTION --End--- */
 
-}
 
-button{
-    background: #10B981;
-    padding: 8px 15px;
-    font-size: 13px;
-    /* font-weight: none; */
-    color:  white;
-    text-shadow: 0 0 20px  #1F2937;
-    border-radius: 6px;
-}
-h6{
-    font-weight: lighter;
-    color: #D5D4D8;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 10px;
-   
-    
-}
-h2{
-    margin-bottom: 8px;
-    font-size: 25px;
-}
